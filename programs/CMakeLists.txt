@@ -1,0 +1,5 @@
+add_subdirectory( nodemos )
+add_subdirectory( clmos )
+add_subdirectory( kmosd )
+add_subdirectory( mos-launcher )
+add_subdirectory( mos-blocklog )

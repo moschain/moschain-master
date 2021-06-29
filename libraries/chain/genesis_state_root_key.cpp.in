@@ -1,0 +1,7 @@
+#include <mos/chain/genesis_state.hpp>
+
+namespace mos { namespace chain {
+
+const string genesis_state::mos_root_key = "${MOS_ROOT_KEY}";
+
+} } // namespace mos::chain

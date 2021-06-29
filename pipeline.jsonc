@@ -1,0 +1,50 @@
+{
+    "mos-multiversion-tests":
+    {
+        "environment":
+        {
+            "IMAGE_TAG": "_1-8-0-rc2"
+        },
+        "configuration":
+        [
+            "170=v1.7.0"
+        ]
+    },
+    "mos-docker-builds":
+    {
+        "environment":
+        {
+            "BUILDER_TAG": "v2.0.0"
+        }
+    },
+    "mos-sync-tests":
+    {
+        "environment":
+        {
+            "SKIP_PRE_V180": "true",
+            "SKIP_V180": "true",
+            "SKIP_V200": "false"
+        }
+    },
+    "mos-replay-tests":
+    {
+        "environment":
+        {
+            "SKIP_PRE_V180": "true",
+            "SKIP_V180": "true",
+            "SKIP_V200": "false"
+        }
+    },
+    "mos-resume-from-state":
+    {
+        "test":
+        [
+            {
+                "tag": "v2.0.0-rc2"
+            },
+            {
+                "tag": "v2.0.0-rc3"
+            }
+        ]
+    }
+}
